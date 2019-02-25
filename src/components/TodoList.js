@@ -24,9 +24,9 @@ class TodoList extends React.Component {
         return (
             <div>
                 Tasks for today:
-			<ul>
+			<ol class="task-list">
                     {singleTaskNames}
-                </ul>
+                </ol>
             </div>
         )
     }

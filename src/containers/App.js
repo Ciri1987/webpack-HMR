@@ -25,7 +25,7 @@ class App extends React.Component {
                 id: 5,
                 text: 'make dinner'
             }],
-            title: 'Webpack plugins'
+            title: 'To Do List'
         };
     }
     addTodo(val) {
