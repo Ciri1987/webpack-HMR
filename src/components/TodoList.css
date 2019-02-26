@@ -1,0 +1,33 @@
+.task {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    margin: 10px;
+    padding: 15px;
+    border: 5px dotted rgb(219, 27, 139);
+    background-color: pink;
+}
+
+p {
+    font-size: 30px;
+}
+
+.delete {
+    opacity: 0.5;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.delete:hover {
+    opacity: 1;
+    color: red;
+}
+
+.button {
+    background-color: blue;
+}
